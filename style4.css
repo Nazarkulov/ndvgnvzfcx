@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 1740px;
+  margin: 0 auto;
+}
+#header {
+  background: #2a2a2a;
+}
+.fanta img {
+  background: #ffffff;
+  margin-top: 1pc;
+
+  width: 15rem;
+  height: 15rem;
+  background: none;
+  mix-blend-mode: darken;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.header-a a {
+  color: #fff;
+  font-family: Cerebri Sans Pro;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-k h2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 1.575rem;
+  font-style: normal;
+  font-weight: 770;
+  line-height: normal;
+}
+
+.herader-gl h1 {
+  color: var(--color-01, #130dcf);
+
+  /* text 02 */
+  font-family: Inter;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem; /* 144.444% */
+}
+.herader-gl h1 span {
+  color: var(--black-1, #ffffff);
+
+  /* text 02 */
+  font-family: Inter;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem;
+}
+.a1 {
+  color: red;
+  border: 2px solid white;
+  border-radius: 0.7pc;
+  padding: 0.4pc;
+}
+.header-k {
+  display: flex;
+  align-items: center;
+  gap: 1pc;
+}
+.header {
+  padding: 1pc 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-a a {
+  margin-left: 1pc;
+}
+.a1 {
+  color: red;
+  border: 2px solid white;
+  border-radius: 0.7pc;
+  padding: 0.4pc;
+}
+.header-k {
+  display: flex;
+  align-items: center;
+  gap: 1pc;
+}
+.header {
+  padding: 1pc 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-a a {
+  margin-left: 1pc;
+}
+.fanta img {
+  background: #ffffff;
+  margin-top: 1pc;
+
+  width: 15rem;
+  height: 15rem;
+  background: none;
+  mix-blend-mode: darken;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.xz {
+  border-radius: 0.8pc;
+  margin-top: -2.1pc;
+  background: #7fad39;
+  color: white;
+  padding: 0.5pc 0.9pc;
+}
+.fanta {
+  display: flex;
+  width: 16.875rem;
+  height: 22.25rem;
+  padding: 1.25rem 0.9375rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.75rem;
+  flex-shrink: 0;
+  margin-top: 1pc;
+  padding: 1pc;
+}
